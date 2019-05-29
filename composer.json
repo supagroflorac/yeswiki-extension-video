@@ -1,0 +1,17 @@
+{
+    "name": "yeswiki/vimeo",
+    "description": "Integre une vidéo issue de Viméo",
+    "type": "extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florestan Bredow",
+            "email": "florestan.bredow@supagro.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YesWiki\\Vimeo\\": "app/"
+        }
+    }
+}
