@@ -1,19 +1,13 @@
 <?php
 namespace YesWiki\Vimeo;
 
-abstract class Template
+class TemplateYoutube extends Template
 {
-    protected $twig;
-    private $templatesPath;
+    private $templatesPath = 'tools/vimeo/templates/youtube/';
 
     public function __construct()
     {
         $twigLoader = new \Twig_Loader_Filesystem($this->templatesPath);
         $this->twig = new \Twig_Environment($twigLoader);
-   }
-
-   public function show($infos)
-   {
-       return $this->twig->render('default.twig', $infos);
    }
 }

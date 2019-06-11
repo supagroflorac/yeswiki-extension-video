@@ -1,17 +1,17 @@
 <?php
 namespace YesWiki\Vimeo;
 
-class Vimeo
+class Youtube
 {
       public function performAction($parameters)
       {
           if ($parameters['id'] === false) {
-              return "Le parametre 'id' doit être spécifié et être un entier";
+              return "Le parametre 'id' doit être spécifié";
           }
 
           $id = $parameters['id'];
 
-          $template = new TemplateVimeo();
+          $template = new TemplateYoutube();
           return $template->show($parameters);
       }
 }
