@@ -1,9 +1,9 @@
 <?php
-namespace YesWiki\Vimeo;
+namespace YesWiki\Video;
 
 class TemplateYoutube extends Template
 {
-    private $templatesPath = 'tools/vimeo/templates/youtube/';
+    private $templatesPath = 'tools/video/templates/youtube/';
 
     public function __construct()
     {

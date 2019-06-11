@@ -1,10 +1,7 @@
 <?php
-namespace YesWiki\Vimeo;
+namespace YesWiki\Video;
 
-if (!defined("WIKINI_VERSION"))
-{
-	die ("accés direct interdit");
-}
+defined("WIKINI_VERSION") || die ("accés direct interdit");
 
 $loader = require __DIR__ . '/../vendor/autoload.php';
 

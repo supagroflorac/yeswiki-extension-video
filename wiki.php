@@ -1,5 +1,2 @@
 <?php
-if (!defined("WIKINI_VERSION")) {
-    die("accès direct interdit");
-}
-
+defined("WIKINI_VERSION") || die ("accés direct interdit");

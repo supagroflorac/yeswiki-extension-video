@@ -2,5 +2,5 @@
 <plugin name="vimeo" version="0.1" active="1">
   <author>Florestan Bredow</author>
   <label>Vimeo</label>
-  <desc>Insere une video vimeo a partir de son ID</desc>
+  <desc>Insere une video Viméo ou Youtube a partir de son ID</desc>
 </plugin>

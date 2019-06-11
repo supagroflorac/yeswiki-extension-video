@@ -1,5 +1,5 @@
 <?php
-namespace YesWiki\Vimeo;
+namespace YesWiki\Video;
 
 class Youtube
 {

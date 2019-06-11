@@ -1,4 +1,2 @@
 <?php
-if (!defined('TOOLS_MANAGER')) {
-    die('accès direct interdit');
-}
+defined("WIKINI_VERSION") || die ("accés direct interdit");

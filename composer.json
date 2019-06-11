@@ -1,6 +1,6 @@
 {
-    "name": "yeswiki/vimeo",
-    "description": "Integre une vidéo issue de Viméo",
+    "name": "yeswiki/video",
+    "description": "Integre une vidéo issue de Viméo ou Youtube",
     "type": "extension",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "YesWiki\\Vimeo\\": "app/"
+            "YesWiki\\Video\\": "app/"
         }
     },
     "require": {
