@@ -27,4 +27,4 @@ id est l'identifiant de la vidéo sur le site de Youtube.
 À partir de l'URL de la page de la vidéo, il faut récupérer le nombre qui identifie la page.
 
 Exemple : pour https://www.youtube.com/watch?v=jofNR_WkoCE C'est jofNR_WkoCE l'identifiant.
-Il faut donc utiliser `{{vimeo id="jofNR_WkoCE"}}` pour intégrer la vidéo dans une page YesWiki.
+Il faut donc utiliser `{{youtube id="jofNR_WkoCE"}}` pour intégrer la vidéo dans une page YesWiki.
