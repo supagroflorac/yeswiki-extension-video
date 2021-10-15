@@ -7,7 +7,7 @@ class TemplateVimeo extends Template
 
     public function __construct()
     {
-        $twigLoader = new \Twig_Loader_Filesystem($this->templatesPath);
-        $this->twig = new \Twig_Environment($twigLoader);
+        $twigLoader = new \Twig\Loader\FilesystemLoader($this->templatesPath);
+        $this->twig = new \Twig\Environment($twigLoader);
    }
 }
